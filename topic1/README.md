@@ -4,7 +4,7 @@ Buat Project Kode HTML5
 
 Preview </br>
 
-![prev](https://raw.githubusercontent.com/fikriomar16/tugasproweb/master/topic1/project01/prev.png)
+![prev](https://raw.githubusercontent.com/fikriomar16/tugasproweb/master/topic1/project01/preview.png)
 
 
 ## Deskripsi
