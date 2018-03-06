@@ -9,6 +9,8 @@ Preview </br>
 
 ## Deskripsi
 
+**HTML** adalah singkatan dari **Hyper Text Markup Language**. HTML adalah bahasa markup internet (web) berupa kode dan simbol yang dimasukkan kedalam sebuah file yang ditujukan untuk ditampilkan didalam sebuah website. Singkatnya, HTML adalah bahasa markup yang digunakan untuk membuat website. Website yang dibuat dengan HTML ini, dapat dilihat oleh semua orang yang terkoneksi dengan internet. Tentunya dengan menggunakan aplikasi penjelajah internet (browser) seperti Internet Explorer, Mozilla Firefox dan Google Chrome. </br></br>
+
 Macam-macam tag yang digunakan </br>
 
 | Tag  | Keterangan |
