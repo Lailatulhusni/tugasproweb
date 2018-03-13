@@ -12,7 +12,7 @@ Percobaan PHP Fundamental
   Algoritma LOGIN
   1. Langkah pertama mulai
   2. Isi username dan password
-  3. Cek ussername dan password benar atau salah
+  3. Cek username dan password benar atau salah
   4. Jika benar, maka akan melanjutkan proses baca menu kemudian tampil user menu
   5. Jika salah, maka proses ini akan kembali ke proses 2, setiap proses login error session akan ditambah 1
   dan apabila proses masih salah akan diulang maksimal sebanyak 3x.
@@ -33,7 +33,7 @@ Percobaan PHP Fundamental
 
   end.
   session_start();
-  if $_SESSION["salah"] >= 3;
+  if $_SESSION["salah"] > 3;
   echo alert('Anda Diblokir') to.location ('error.php');
   }
  ```
