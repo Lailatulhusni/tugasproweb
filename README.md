@@ -18,6 +18,10 @@ Topic 3 : JavaScript & Jquery <br />
 Topic 4 : PHP Fundamental <br />
 [Tugas4](https://github.com/fikriomar16/tugasproweb/tree/master/topic4)
 
+## Koneksi dengan Database
+Mencoba koneksi dengan database mysql menggunakan php <br />
+[Koneksi Database](https://github.com/fikriomar16/tugasproweb/tree/master/koneksi)
+
 ## Topic 5
 Topic 5 : PHP OOP <br />
 [Tugas5](https://github.com/fikriomar16/tugasproweb/tree/master/topic5)
