@@ -22,6 +22,6 @@ Topic 4 : PHP Fundamental <br />
 Mencoba koneksi dengan database mysql menggunakan php <br />
 [Koneksi Database](https://github.com/fikriomar16/tugasproweb/tree/master/koneksi)
 
-## Topic 5
-Topic 5 : PHP OOP <br />
-[Tugas5](https://github.com/fikriomar16/tugasproweb/tree/master/topic5)
+## Tugas II
+Tugas II (Setelah UTS) <br />
+[Tugas5](https://github.com/fikriomar16/tugasproweb/tree/master/TugasII)
