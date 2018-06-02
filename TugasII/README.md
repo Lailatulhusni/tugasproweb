@@ -34,6 +34,10 @@ Data setelah dihapus <br>
 
 ## Penjelasan
 
+* [HTML](#HTML)
+* [JavaScript](#JavaScript)
+* [PHP](#PHP)
+
 ### HTML
 
 Bagian untuk memuat tabel <br>
@@ -449,3 +453,6 @@ if (!$in) {
 /* ================================================== */
 echo json_encode($msg);
 ```
+
+
+Kumpulan Tugas-Tugas Pemrograman Web beserta dokumentasi : [Tugas Proweb](https://github.com/fikriomar16/tugasproweb/)
