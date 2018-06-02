@@ -34,9 +34,9 @@ Data setelah dihapus <br>
 
 ## Penjelasan
 
-* [HTML](#HTML)
-* [JavaScript](#JavaScript)
-* [PHP](#PHP)
+* [HTML](#html)
+* [JavaScript](#javascript)
+* [PHP](#php)
 
 ### HTML
 
