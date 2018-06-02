@@ -24,4 +24,4 @@ Mencoba koneksi dengan database mysql menggunakan php <br />
 
 ## Tugas II
 Tugas II (Setelah UTS) <br />
-[Tugas5](https://github.com/fikriomar16/tugasproweb/tree/master/TugasII)
+[Tugas II](https://github.com/fikriomar16/tugasproweb/tree/master/TugasII)
