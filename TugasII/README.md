@@ -456,3 +456,75 @@ echo json_encode($msg);
 
 
 Kumpulan Tugas-Tugas Pemrograman Web beserta dokumentasi : [Tugas Proweb](https://github.com/fikriomar16/tugasproweb/)
+
+# LATIHAN MENGGUNAKAN CI
+
+Menggunakan MVC (Models, Views, Controllers) <br>
+
+## Preview
+
+![Preview](https://raw.githubusercontent.com/fikriomar16/tugasproweb/master/TugasII/Screenshot/ci1.png)
+
+## Penjelasan
+
+* [Models](models)
+* [Views](views)
+* [Controllers](controllers)
+
+### Models
+```html
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+class M_users extends CI_Model {
+	private $id;
+	private $name;
+	private $alamat;
+
+	public function get_users()
+	{
+		$query = $this->db->get('users');
+		return $query->result();
+	}
+}
+```
+
+### Views
+```html
+	<div class="table-responsive container mb-auto">
+		<table class="table table-hover">
+			<thead class="thead-light">
+				<tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Alamat</th>
+				</tr>
+			</thead>
+			<tbody>
+				<?php
+				foreach ($user_list as $key => $row) {
+				?>
+				<tr>
+					<th><?php echo $row->id?></th>
+					<th><?php echo $row->name?></th>
+					<th><?php echo $row->alamat?></th>
+				</tr>
+				<?php 
+			}
+				?>
+			</tbody>
+		</table>
+	</div>
+```
+
+### Contorllers
+```html
+	public function index()
+	{
+		//$this->load->view('welcome_message');
+		//echo "Selamat Datang di CI";
+		$M_users = $this->load->model('M_users');
+		$data['user_list'] = $this->M_users->get_users();
+		//print_r($data);
+		$this->load->view('users_view',$data);
+	}
+```
