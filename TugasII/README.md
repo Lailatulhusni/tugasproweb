@@ -467,9 +467,9 @@ Menggunakan MVC (Models, Views, Controllers) <br>
 
 ## Penjelasan
 
-* [Models](models)
-* [Views](views)
-* [Controllers](controllers)
+* [Models](#models)
+* [Views](#views)
+* [Controllers](#controllers)
 
 ### Models
 ```html
