@@ -472,7 +472,7 @@ Menggunakan MVC (Models, Views, Controllers) <br>
 * [Controllers](#controllers)
 
 ### Models
-```html
+```php
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 class M_users extends CI_Model {
@@ -516,8 +516,8 @@ class M_users extends CI_Model {
 	</div>
 ```
 
-### Contorllers
-```html
+### Controllers
+```php
 	public function index()
 	{
 		//$this->load->view('welcome_message');
